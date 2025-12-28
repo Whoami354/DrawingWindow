@@ -38,15 +38,6 @@ public class CircleExample extends Application {
                     }else if(mouseEvent.getButton().equals(MouseButton.SECONDARY)){
                         root.getChildren().removeAll((Node) mouseEvent.getTarget());
                     }
-                /*
-                circle.setOnMouseClicked(new EventHandler<MouseEvent>() {
-                    @Override
-                    public void handle(MouseEvent mouseEvent) {
-                        if (mouseEvent.getButton().equals(MouseButton.SECONDARY)) {
-                            root.getChildren().removeAll(circle);
-                        }
-                    }
-                });*/
                 }
             });
 
